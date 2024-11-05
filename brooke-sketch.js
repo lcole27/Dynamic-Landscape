@@ -204,7 +204,7 @@ function draw() {
 
 
 //building
-function buildings(x,y-40,size) {
+function buildings(x,y,size) {
   //silhouette of buildings
   fill ("black")
   rect(0, 190, 70, 150)
@@ -221,9 +221,9 @@ function buildings(x,y-40,size) {
 }
 
 //light
-function windows(x, y-40, size) {
+function windows(x, y, size) {
   fill ("white")
-  square(x+size, y, size)
+  square(x+size, y+40, size)
 }
 
 
