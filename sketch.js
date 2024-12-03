@@ -27,7 +27,7 @@ let siren;
 
 //loads the sound before the scene plays
 function preload() {
-  siren = loadSound("dynamic_project/police-siren.mp3"); //siren sound
+  siren = loadSound("police-siren.mp3"); //siren sound
 }
 
 
